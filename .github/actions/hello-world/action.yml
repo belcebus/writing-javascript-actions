@@ -1,0 +1,6 @@
+name: "my hello world action"
+description: "say hello to the world"
+
+runs:
+  using: "node12"
+  main: "main.js"
