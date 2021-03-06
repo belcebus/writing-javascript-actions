@@ -10,5 +10,5 @@ jobs:
       - name: Checking out!
         uses: actions/checkout@v1
       
-      - name: custom action
+      - name: hello-action
         uses: ./.github/actions/hello-world
