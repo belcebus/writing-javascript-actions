@@ -1,0 +1,21 @@
+name: "my hello world action"
+description: "say hello to the world"
+
+inputs:
+  first-greeting:
+    description: "first greeting message"
+    required: true
+    default: "Hubot"
+  
+  second-greeting:
+    description: "Second greeting message"
+    required: true
+    default: "Mona the OctoCat"
+
+  third-greeting:
+    description: "Third greeting message"
+    required: false
+
+runs:
+  using: "node12"
+  main: "main.js"
