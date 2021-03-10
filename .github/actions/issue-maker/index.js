@@ -16,6 +16,10 @@ async function run() {
             body: jokeBody
         });
 
+        console.log("title: " + issueTitle);
+        console.log("body: " + jokeBody);
+        console.log("token" + token);
+
     }catch (err){}
 }
 
