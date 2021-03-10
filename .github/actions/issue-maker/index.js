@@ -18,7 +18,7 @@ async function run() {
 
         console.log("title: " + issueTitle);
         console.log("body: " + jokeBody);
-        console.log("token" + token);
+        console.log("token: " + token);
 
     }catch (err){}
 }
