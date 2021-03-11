@@ -10,14 +10,14 @@ jobs:
       - name: Checking out!
         uses: actions/checkout@v1
       
-      - name: hello-action
+      - name: hello-world-action
         uses: ./.github/actions/hello-world
         
-      - name: ha-ha
+      - name: joke-action
         uses: ./.github/actions/joke-action
         id: jokes
       
-      - name: create-issue
+      - name: issue-maker-action
         uses: ./.github/actions/issue-maker
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
