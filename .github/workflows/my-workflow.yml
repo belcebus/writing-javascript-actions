@@ -7,17 +7,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checking out!
+      - 
+        name: Checking out!
         uses: actions/checkout@v1
       
-      - name: hello-world-action
+      - 
+        name: hello-world-action
         uses: ./.github/actions/hello-world
         
-      - name: joke-action
+      - 
+        name: joke-action
         uses: ./.github/actions/joke-action
         id: jokes
       
-      - name: issue-maker-action
+      - 
+        name: issue-maker-action
         uses: ./.github/actions/issue-maker
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
